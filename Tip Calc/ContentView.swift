@@ -29,7 +29,7 @@ struct ContentView: View {
             }
             .padding()
             
-            Text("Tip Ammount: \(total)")
+            Text("Tip Ammount: \(Double(total))")
         }
     }
 }
